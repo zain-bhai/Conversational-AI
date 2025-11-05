@@ -15,7 +15,7 @@ Make sure you have the following installed:
 Installation
 1. Clone the Repository
 git clone https://github.com/zain-bhai/Conversational-AI.git
-cd LLMSMedicalInsightsAPI
+cd Conversational-AI
 
 NOTE: install git first if you dont have installed yet.
 
