@@ -8,10 +8,10 @@ import uuid
 import os
 
 # Load environment variables
-# load_dotenv()
+load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY", "AIzaSyAo8pgpGDFSrNM4O0mpNlokpPjKO2Z3vkg")
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY")
 )
 
 # Initialize FastAPI app
@@ -157,3 +157,4 @@ async def chat(request: ChatRequest):
 @app.get("/")
 def root():
     return {"message": "Dr. HealBot API is running and ready for consultation!"}
+
