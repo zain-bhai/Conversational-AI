@@ -1,5 +1,7 @@
 # Conversational-AI
-*Important Note*: This API return markdown text as output you explictly convert it to markup on frontend.
+*Important Note*: 
+1- This API return markdown text as output you explictly convert it to markup on frontend.
+2- API has two input feilds message and session_id you have to manage session Id on the from front end wheras data against each of the        session_id will save in our backend dict.                  
 
 ##  Getting Started
 
